@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061EA9C01EC4E97C002D1991 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061EA9BF1EC4E97C002D1991 /* ItemCell.swift */; };
 		067385211EC4C543004422DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385201EC4C543004422DD /* AppDelegate.swift */; };
-		067385231EC4C543004422DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385221EC4C543004422DD /* ViewController.swift */; };
+		067385231EC4C543004422DD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385221EC4C543004422DD /* MainVC.swift */; };
 		067385261EC4C543004422DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067385241EC4C543004422DD /* Main.storyboard */; };
 		067385291EC4C543004422DD /* dreamCast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 067385271EC4C543004422DD /* dreamCast.xcdatamodeld */; };
 		0673852B1EC4C543004422DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0673852A1EC4C543004422DD /* Assets.xcassets */; };
 		0673852E1EC4C543004422DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0673852C1EC4C543004422DD /* LaunchScreen.storyboard */; };
+		0673853D1EC4CC69004422DD /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385351EC4CC69004422DD /* Item+CoreDataClass.swift */; };
+		0673853E1EC4CC69004422DD /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385361EC4CC69004422DD /* Item+CoreDataProperties.swift */; };
+		0673853F1EC4CC69004422DD /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385371EC4CC69004422DD /* Image+CoreDataClass.swift */; };
+		067385401EC4CC69004422DD /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385381EC4CC69004422DD /* Image+CoreDataProperties.swift */; };
+		067385411EC4CC69004422DD /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067385391EC4CC69004422DD /* ItemType+CoreDataClass.swift */; };
+		067385421EC4CC69004422DD /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673853A1EC4CC69004422DD /* ItemType+CoreDataProperties.swift */; };
+		067385431EC4CC69004422DD /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673853B1EC4CC69004422DD /* Store+CoreDataClass.swift */; };
+		067385441EC4CC69004422DD /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673853C1EC4CC69004422DD /* Store+CoreDataProperties.swift */; };
+		067385481EC4DD27004422DD /* domoKun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067385471EC4DD27004422DD /* domoKun.jpg */; };
+		0673854B1EC4DDD8004422DD /* MetrialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673854A1EC4DDD8004422DD /* MetrialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061EA9BF1EC4E97C002D1991 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		0673851D1EC4C543004422DD /* dreamCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067385201EC4C543004422DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		067385221EC4C543004422DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		067385221EC4C543004422DD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		067385251EC4C543004422DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067385281EC4C543004422DD /* dreamCast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dreamCast.xcdatamodel; sourceTree = "<group>"; };
 		0673852A1EC4C543004422DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0673852D1EC4C543004422DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0673852F1EC4C543004422DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067385351EC4CC69004422DD /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		067385361EC4CC69004422DD /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		067385371EC4CC69004422DD /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		067385381EC4CC69004422DD /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		067385391EC4CC69004422DD /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0673853A1EC4CC69004422DD /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0673853B1EC4CC69004422DD /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0673853C1EC4CC69004422DD /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		067385471EC4DD27004422DD /* domoKun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = domoKun.jpg; sourceTree = "<group>"; };
+		0673854A1EC4DDD8004422DD /* MetrialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetrialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,50 @@
 		0673851F1EC4C543004422DD /* dreamCast */ = {
 			isa = PBXGroup;
 			children = (
+				067385491EC4DD8D004422DD /* View */,
+				067385451EC4CC73004422DD /* model */,
 				067385201EC4C543004422DD /* AppDelegate.swift */,
-				067385221EC4C543004422DD /* ViewController.swift */,
+				067385221EC4C543004422DD /* MainVC.swift */,
 				067385241EC4C543004422DD /* Main.storyboard */,
+				067385471EC4DD27004422DD /* domoKun.jpg */,
 				0673852A1EC4C543004422DD /* Assets.xcassets */,
 				0673852C1EC4C543004422DD /* LaunchScreen.storyboard */,
 				0673852F1EC4C543004422DD /* Info.plist */,
 				067385271EC4C543004422DD /* dreamCast.xcdatamodeld */,
 			);
 			path = dreamCast;
+			sourceTree = "<group>";
+		};
+		067385451EC4CC73004422DD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				067385351EC4CC69004422DD /* Item+CoreDataClass.swift */,
+				067385371EC4CC69004422DD /* Image+CoreDataClass.swift */,
+				067385391EC4CC69004422DD /* ItemType+CoreDataClass.swift */,
+				0673853B1EC4CC69004422DD /* Store+CoreDataClass.swift */,
+				067385461EC4CC78004422DD /* genertayed */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		067385461EC4CC78004422DD /* genertayed */ = {
+			isa = PBXGroup;
+			children = (
+				067385361EC4CC69004422DD /* Item+CoreDataProperties.swift */,
+				067385381EC4CC69004422DD /* Image+CoreDataProperties.swift */,
+				0673853A1EC4CC69004422DD /* ItemType+CoreDataProperties.swift */,
+				0673853C1EC4CC69004422DD /* Store+CoreDataProperties.swift */,
+			);
+			name = genertayed;
+			sourceTree = "<group>";
+		};
+		067385491EC4DD8D004422DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0673854A1EC4DDD8004422DD /* MetrialView.swift */,
+				061EA9BF1EC4E97C002D1991 /* ItemCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +187,7 @@
 				0673852E1EC4C543004422DD /* LaunchScreen.storyboard in Resources */,
 				0673852B1EC4C543004422DD /* Assets.xcassets in Resources */,
 				067385261EC4C543004422DD /* Main.storyboard in Resources */,
+				067385481EC4DD27004422DD /* domoKun.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +198,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067385231EC4C543004422DD /* ViewController.swift in Sources */,
+				067385231EC4C543004422DD /* MainVC.swift in Sources */,
+				061EA9C01EC4E97C002D1991 /* ItemCell.swift in Sources */,
+				0673854B1EC4DDD8004422DD /* MetrialView.swift in Sources */,
 				067385211EC4C543004422DD /* AppDelegate.swift in Sources */,
+				067385421EC4CC69004422DD /* ItemType+CoreDataProperties.swift in Sources */,
+				0673853D1EC4CC69004422DD /* Item+CoreDataClass.swift in Sources */,
+				067385441EC4CC69004422DD /* Store+CoreDataProperties.swift in Sources */,
+				0673853F1EC4CC69004422DD /* Image+CoreDataClass.swift in Sources */,
+				067385411EC4CC69004422DD /* ItemType+CoreDataClass.swift in Sources */,
 				067385291EC4C543004422DD /* dreamCast.xcdatamodeld in Sources */,
+				067385431EC4CC69004422DD /* Store+CoreDataClass.swift in Sources */,
+				0673853E1EC4CC69004422DD /* Item+CoreDataProperties.swift in Sources */,
+				067385401EC4CC69004422DD /* Image+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +372,7 @@
 				067385341EC4C543004422DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
